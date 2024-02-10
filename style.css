@@ -146,3 +146,96 @@ section#hero {
         width: unset;
     }
 }
+
+/*contact page css*/
+.title {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 1.5em;
+}
+fieldset {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 800px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.134);
+    backdrop-filter: blur(8px);
+
+}
+
+legend {
+    font-size: 1.25em;
+    padding: 0 0.25em;
+    color: #ffffff;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top:0.7em;
+}
+
+.checks label {
+    display: inline-block;
+    margin-top: 0;
+}
+
+label:first-of-type {
+    margin-top: 1.5em;
+}
+
+input {
+    padding: 0.5em;
+    border: solid 1px #999;
+    border-radius: 6px;
+}
+
+input [type="email"] , input [type="text"] {
+    width: 15em;
+}
+
+.checks {
+    margin-bottom: 1em;
+}
+.checks p {
+    margin-bottom: -0.75em;
+}
+
+input[type="submit"] {
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 0.8em;
+}
+
+@media screen and (min-width: 430px) {
+    legend {
+        font-size: 1em;
+    }
+
+    fieldset {
+        width: 40%;
+        min-width: 600px;
+        margin: auto;
+    }
+
+    .checks label {
+        display: inline-block;
+        padding-top: 1em;
+        margin-top: 0;
+        margin-right: 0.5em;
+    }
+    
+}
+
+/*submit page*/
+.sub {
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.75em;
+    
+    margin-top: 1.5em;
+}
